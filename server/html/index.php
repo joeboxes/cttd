@@ -53,7 +53,7 @@ background-color: #FFFFFF;
 
 <body>
 <div style="width:100%; height:100% background-color:#F00;" >
-	<img src="images/logo_cttd.png" style="width:100%; height:100%; object-fit: contain;" />
+	<img src="images/tree_fall_compressed.png" style="width:100%; height:100%; object-fit: contain;" />
 </div>
 </body>
 
