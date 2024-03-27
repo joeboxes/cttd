@@ -35,6 +35,22 @@ find /var/www/html/ -type f -exec chmod 644 {} +
 
 
 
+# git issues
+
+mv ~/.ssh/id_rsa ~/.ssh/id_rsa.bak
+
+ssh-add -K ~/.ssh/id_rsa_joeboxes_2023_10_13  
+mv ~/.ssh/id_rsa.bak ~/.ssh/id_rsa
+
+
+# squash 2 commits
+
+git reset --soft HEAD~2 &&
+git commit
+
+
+
+
 
 
 
